@@ -58,7 +58,7 @@ class Form extends React.Component {
 
     return (
       <Fragment>
-        <Helmet>
+        {/* <Helmet>
           <script src="https://www.google.com/recaptcha/api.js" />
         </Helmet>
         <form
@@ -170,7 +170,7 @@ class Form extends React.Component {
             value="Enquire"
             disabled={this.state.disabled}
           />
-        </form>
+        </form> */}
       </Fragment>
     )
   }

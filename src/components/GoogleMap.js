@@ -19,15 +19,16 @@ class GoogleMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '50vh', width: '100%' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: mapkey }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-        >
-          <Marker lat={-28.0914483} lng={153.4425208} text={'Kreyser Avrora'} />
-        </GoogleMapReact>
-      </div>
+      // <div style={{ height: '50vh', width: '100%' }}>
+      //   <GoogleMapReact
+      //     bootstrapURLKeys={{ key: mapkey }}
+      //     defaultCenter={this.props.center}
+      //     defaultZoom={this.props.zoom}
+      //   >
+      //     <Marker lat={-28.0914483} lng={153.4425208} text={'Kreyser Avrora'} />
+      //   </GoogleMapReact>
+      // </div>
+      <h1>サンプル</h1>
     )
   }
 }
